@@ -1,0 +1,7 @@
+.slider{
+    /* background: red; */
+    height: 500px;
+     background-image: url("../img/bg-3.png");
+     background-size: cover;
+     background-position: center;
+}
