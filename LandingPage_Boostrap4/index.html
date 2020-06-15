@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boostrap4 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="img/logo.png" alt="Logotipo" style="width: 40%;" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="background-overlay text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 text-center justify-content-center align-self-center"
+            >
+              <h1>Frase de producto</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum,
+                iusto!
+              </p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                Read More
+              </a>
+            </div>
+
+            <div class="col-md-6">
+              <img
+                src="img/portada.jpg"
+                alt="Imagen de portada de libro"
+                class="img-fluid d-none d-sm-block"
+                style="height: 500px; width: 350px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NEWSLETTER -->
+    <section class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              class="form-control form-control-lg"
+              type="email"
+              placeholder="Ingrese su email"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              type="submit"
+              class="btn btn-primary btn-lg btn-block"
+              value="Suscribete"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/edificios.jpg" class="card-img-top" />
+            <div class="card text-center border-secondary bg-info text-white">
+              <div class="card-body">
+                <h3 class="card-title">Feature One</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam, placeat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img src="img/biblioteca.jpg" class="card-img-top" />
+            <div class="card text-center border-secondary">
+              <div class="card-body">
+                <h3 class="card-title">Feature Two</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam, placeat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-secondary bg-info text-white">
+              <img src="img/logo.png" class="card-img-top" />
+              <div class="card-body">
+                <h3 class="card-title">Feature Three</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam, placeat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-secondary">
+              <img src="img/paisaje.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h3 class="card-title">Feature Four</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam, placeat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="m-5">
+            <h3>Why this product?</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
+              suscipit corrupti neque repudiandae! Maiores nemo eum tenetur?
+              Dolore accusamus sint, consequuntur unde rem aliquam dolorem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCORDION -->
+    <section class="container p-5">
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-center"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  ¿Question 1?
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, facere. Eaque quas magnam molestiae veritatis
+                laudantium id architecto nostrum soluta deserunt eum debitis
+                sequi, enim deleniti odio tempora animi eos excepturi ab
+                reprehenderit, non beatae omnis, mollitia quisquam! Iusto,
+                velit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, voluptatem. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-center collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  ¿Question 2?
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, facere. Eaque quas magnam molestiae veritatis
+                laudantium id architecto nostrum soluta deserunt eum debitis
+                sequi, enim deleniti odio tempora animi eos excepturi ab
+                reprehenderit, non beatae omnis, mollitia quisquam! Iusto,
+                velit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, voluptatem. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-center collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  ¿Question 3?
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, facere. Eaque quas magnam molestiae veritatis
+                laudantium id architecto nostrum soluta deserunt eum debitis
+                sequi, enim deleniti odio tempora animi eos excepturi ab
+                reprehenderit, non beatae omnis, mollitia quisquam! Iusto,
+                velit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, voluptatem. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team text-center">
+      <div class="container p-5">
+        <h1 class="text-white">TEAM</h1>
+        <p class="text-white">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur,
+          iste.
+        </p>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/person.png"
+                  alt="imagen"
+                  class="img-fluid rounded-circle w-50"
+                />
+                <h3 class="card-title">Alejandro Ibañez</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, officia?
+                </p>
+              </div>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a target="_blank" href="https://es-la.facebook.com/"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://twitter.com/login?lang=es"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://www.instagram.com/?hl=es-la"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/person.png"
+                  alt="imagen"
+                  class="img-fluid rounded-circle w-50"
+                />
+                <h3 class="card-title">Herberth Ibañez</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, officia?
+                </p>
+              </div>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a target="_blank" href="https://es-la.facebook.com/"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://twitter.com/login?lang=es"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://www.instagram.com/?hl=es-la"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/person.png"
+                  alt="imagen"
+                  class="img-fluid rounded-circle w-50"
+                />
+                <h3 class="card-title">Emely del carmen Ibañez</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, officia?
+                </p>
+              </div>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a target="_blank" href="https://es-la.facebook.com/"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://twitter.com/login?lang=es"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://www.instagram.com/?hl=es-la"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/person.png"
+                  alt="imagen"
+                  class="img-fluid rounded-circle w-50"
+                />
+                <h3 class="card-title">Silvia de Ibañez</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, officia?
+                </p>
+              </div>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a target="_blank" href="https://es-la.facebook.com/"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://twitter.com/login?lang=es"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </div>
+
+                <div class="p-4">
+                  <a target="_blank" href="https://www.instagram.com/?hl=es-la"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Contactanos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <form action="">
+              <div class="form-group">
+                <!-- Creamos un imput con un icono en el extremo -->
+                <div class="input-group mb-3">
+                  <!-- Aplicamos un icono al imput -->
+                  <div class="imput-group-prepend">
+                    <i class="fa fa-user input-group-text h-100" aria-hidden="true"></i>                  
+                  </div>              
+                  <input type="text" placeholder="Ingrese nombre" class="form-control">
+                </div>
+              </div>
+  
+              <div class="form-group">
+                <!-- Creamos un imput con un icono en el extremo -->
+                <div class="input-group mb-3">
+                  <!-- Aplicamos un icono al imput -->
+                  <div class="imput-group-prepend">
+                    <i class="fa fa-envelope input-group-text h-100" aria-hidden="true"></i>               
+                  </div>              
+                  <input type="email" placeholder="Ingrese email" class="form-control">
+                </div>
+              </div>
+  
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <i class="fa fa-pencil input-group-text h-100" aria-hidden="true"></i>
+                  </div>
+                  <textarea class="form-control" rows="10" placeholder="Escribe tu mensaje" aria-label="With textarea"></textarea>
+                </div>
+              </div>
+              <button class="btn btn-success btn-block btn-lg">Enviar</button>
+            </form>
+          </div>
+
+          <div class="col-lg-3 align-self-center">
+            <img src="img/logo.png" alt="image responsive" class="img-fluid">
+          </div>
+        </div>      
+      </div> 
+    </section>
+
+    <footer>
+      <div class="container py-3 text-center text-light">
+        <p>Copyright &copy 2020</p>
+      </div>    
+    </footer>
+
+    <!-- Complementos javascript de boostrap4 -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
